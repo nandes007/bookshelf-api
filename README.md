@@ -2,10 +2,10 @@
 Build using HapiJS Framework
 
 ## User Guide
-dibangun dengan nodejs v14.17.0
-clone project from [GitHub]
-run npm install
-run npm run start-dev
+1. dibangun dengan nodejs v14.17.0
+2. clone project from [GitHub]
+3. run npm install
+4. run npm run start-dev
 
 | Method  |       URL        |   Response   | Required Parameter? |   Deskripsi   |
 | ------- |:----------------:|:------------:|:--------------------|:-------------:|
@@ -16,17 +16,18 @@ run npm run start-dev
 |  DELETE |  /books/{bookId} | JSON         | Yes [bookId]  | Menghapus data buku sesuai dengan `id` |
 
 # Request Form
-"name": string|required,
-"year": number,
-"author": string,
-"summary": string,
-"publisher": string,
-"pageCount": number|>readPage,
-"readPage": number|<pageCount,
-"reading": boolean
+1. "name": string|required,
+2. "year": number,
+3. "author": string,
+4. "summary": string,
+5. "publisher": string,
+6. "pageCount": number|>readPage,
+7. "readPage": number|<pageCount,
+8. "reading": boolean
 
 Description
 1. Menggunakan Hapi JS Framework.
 2. Menggunakan eslint standard javascipt untuk gaya penulisan kode.
 3. Menggunakan nodemon untuk menjalankan webserver.
 4. Menggunakan nanoid untuk id buku.
+5. Data buku disimpan masih menggunakan array.
