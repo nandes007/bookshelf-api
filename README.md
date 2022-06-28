@@ -25,7 +25,7 @@ Build using HapiJS Framework
 7. "readPage": number|<pageCount,
 8. "reading": boolean
 
-Description
+# Description
 1. Menggunakan Hapi JS Framework.
 2. Menggunakan eslint standard javascipt untuk gaya penulisan kode.
 3. Menggunakan nodemon untuk menjalankan webserver.
